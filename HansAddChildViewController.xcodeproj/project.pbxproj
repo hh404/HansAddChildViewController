@@ -14,6 +14,8 @@
 		3A828CBD207C6E3500FA231C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A828CBB207C6E3500FA231C /* LaunchScreen.storyboard */; };
 		3A828CC8207C6E3500FA231C /* HansAddChildViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A828CC7207C6E3500FA231C /* HansAddChildViewControllerTests.swift */; };
 		3A828CD3207C6E3500FA231C /* HansAddChildViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A828CD2207C6E3500FA231C /* HansAddChildViewControllerUITests.swift */; };
+		3A828CE1207C6E6000FA231C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A828CE0207C6E6000FA231C /* FirstViewController.swift */; };
+		3A828CE3207C6E6D00FA231C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A828CE2207C6E6D00FA231C /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3A828CCE207C6E3500FA231C /* HansAddChildViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HansAddChildViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A828CD2207C6E3500FA231C /* HansAddChildViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HansAddChildViewControllerUITests.swift; sourceTree = "<group>"; };
 		3A828CD4207C6E3500FA231C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A828CE0207C6E6000FA231C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		3A828CE2207C6E6D00FA231C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				3A828CB9207C6E3500FA231C /* Assets.xcassets */,
 				3A828CBB207C6E3500FA231C /* LaunchScreen.storyboard */,
 				3A828CBE207C6E3500FA231C /* Info.plist */,
+				3A828CE0207C6E6000FA231C /* FirstViewController.swift */,
+				3A828CE2207C6E6D00FA231C /* SecondViewController.swift */,
 			);
 			path = HansAddChildViewController;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A828CE3207C6E6D00FA231C /* SecondViewController.swift in Sources */,
+				3A828CE1207C6E6000FA231C /* FirstViewController.swift in Sources */,
 				3A828CB5207C6E3500FA231C /* ViewController.swift in Sources */,
 				3A828CB3207C6E3400FA231C /* AppDelegate.swift in Sources */,
 			);
